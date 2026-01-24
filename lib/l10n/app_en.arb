@@ -1,0 +1,11 @@
+{
+  "version": "Version",
+  "welcomeBack": "Welcome Back",
+  "pleaseEnterYourEmailAddress": "Please Enter your Email Address",
+  "emailAddress": "Email Address",
+  "password": "password",
+
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}

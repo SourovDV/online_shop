@@ -1,3 +1,4 @@
 class AppPages{
-  static final signUp='/signup';
+  static final splash='/signup';
+  static final signIn='/signIn';
 }
