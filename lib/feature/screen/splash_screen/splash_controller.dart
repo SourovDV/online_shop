@@ -8,4 +8,10 @@ class SplashController extends GetxController{
     Get.toNamed(AppPages.signIn);
   }
 
+  @override
+  void onReady() {
+    // TODO: implement onReady
+    super.onReady();
+    moveToSignInPage();
+  }
 }
