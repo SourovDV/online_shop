@@ -5,7 +5,6 @@
   "emailAddress": "Email Address",
   "password": "password",
   "next": "next",
-
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   }
