@@ -4,5 +4,14 @@
   "pleaseEnterYourEmailAddress": "দয়া করে আপনার ইমেলটি দিন",
   "emailAddress": "ইমেল অ্যাড্রেস",
   "password": "পাসওয়াড",
-  "next": "নেক্সট"
+  "next": "নেক্সট",
+  "doNotHaveAnAccount": "আপনার কি অ্যাকাউন্ট নেই",
+  "signUp": "সাইন আপ করুন ",
+  "signIn":"সাইন ইন করুন",
+  "registerYourAccount": "আপনার অ্যাকাউন্ট রেজিস্টার করুন",
+  "getStartedWithYourDetails": "আপনার ডিটেলস দিয়ে শুরু করুন",
+  "firstName": "প্রথম নাম",
+  "lastName": "শেষ নাম",
+  "phone": "ফোন",
+  "deliveryAddress": "ডেলিভারি অ্যাড্রেস"
 }

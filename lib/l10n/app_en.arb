@@ -5,6 +5,16 @@
   "emailAddress": "Email Address",
   "password": "password",
   "next": "next",
+  "doNotHaveAndAccount": "Do not have an account ? ",
+  "signUp": "SignUp",
+  "signIn": "SignIn",
+  "registerYourAccount": "Register Your Account",
+  "getStartedWithYourDetails": "Get started with your details",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "phone": "phone",
+  "deliveryAddress": "Delivery Address",
+
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   }
