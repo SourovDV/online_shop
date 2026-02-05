@@ -19,7 +19,6 @@ class SignUpView extends GetView<SignUpController> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SizedBox(height: 10.h),
               Image.asset(ImagePath.splashImage),
               Text(context.localization.welcomeBack, style: theme.titleLarge),
               Text(
@@ -28,48 +27,56 @@ class SignUpView extends GetView<SignUpController> {
               ),
               SizedBox(height: 10.h),
               Form(
+                key: controller.controllerKey,
                 child: Column(
                   children: [
                     TextFormField(
                       decoration: InputDecoration(
                         hintText: context.localization.emailAddress
                       ),
+                      controller: controller.emailController,
                     ),
                     SizedBox(height: 5.h,),
                     TextFormField(
                       decoration: InputDecoration(
                         hintText: context.localization.firstName,
                       ),
+                      controller: controller.firstNameController,
                     ),
                     SizedBox(height: 5.h,),
                     TextFormField(
                       decoration: InputDecoration(
                         hintText: context.localization.lastName,
                       ),
+                      controller: controller.lastNameController,
                     ),
                     SizedBox(height: 5.h,),
                     TextFormField(
                       decoration: InputDecoration(
                         hintText: context.localization.phone,
                       ),
-                    ),
-                    SizedBox(height: 5.h,),
-                    TextFormField(
-                      decoration: InputDecoration(
-                        hintText: context.localization.deliveryAddress,
-                      ),
+                      controller: controller.phoneController,
                     ),
                     SizedBox(height: 5.h,),
                     TextFormField(
                       decoration: InputDecoration(
                         hintText: context.localization.password
                       ),
+                      controller: controller.passwordController,
+                    ),
+                    SizedBox(height: 5.h,),
+                    TextFormField(
+                    maxLines: 2,
+                      decoration: InputDecoration(
+                        hintText: context.localization.deliveryAddress,
+                      ),
+                      controller: controller.deliveryController,
                     ),
           
                   ],
                 ),
               ),
-              SizedBox(height: 10.h),
+              SizedBox(height: 5.h),
               ElevatedButton(
                 onPressed: () {},
                 child: Row(
